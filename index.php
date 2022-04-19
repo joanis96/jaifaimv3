@@ -4,9 +4,9 @@
 	<head>
 		<meta charset="utf-8" />
     	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    	<meta http-equiv="cache-control" content="no-store,max-age=0" />
 		<title>Jaifaim, connexion ou inscription!</title>
 		<link rel="stylesheet" type="text/css" href="css/index.css">
+		<link rel="stylesheet" href="css/footer.css">
 	</head>
 
 <body>
@@ -31,6 +31,9 @@
 		</div>
 	</div>
 
+	<footer style="text-align: center; color:#FFF">
+  		<p>Par J96 inc.</p>
+	</footer>
 </body>
 
 </html>

@@ -4,7 +4,6 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="cache-control" content="no-store,max-age=0" />
     <title>Jaifaim m-a-j photo couverture</title>
     <link rel="stylesheet" type="text/css" href="css/home.css">
 </head>
