@@ -31,8 +31,8 @@
 		</div>
 	</div>
 
-	<footer style="text-align: center; color:#FFF">
-  		<p>Par J96 inc.</p>
+	<footer>
+  		<h3>Par J96 inc.</h3>
 	</footer>
 </body>
 

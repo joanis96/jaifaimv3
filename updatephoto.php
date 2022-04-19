@@ -32,7 +32,7 @@
             } else {
                 if ($size > 10000000) //conditions for the file
                 {
-                    die("Format is not allowed or file size is too big!");
+                    die("Format non supporté ou fichier trop volumineux!");
                 } else {
 
                     move_uploaded_file($_FILES["image"]["tmp_name"], "upload/" . $_FILES["image"]["name"]);

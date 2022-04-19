@@ -24,20 +24,20 @@
                         <td colspan="2" style="color: red;">* Veuillez remplir tous les champs svp. *</td>
                     </tr>
                         <tr>
-                            <td><label>Prénom</label></td>
-                            <td><label>Nom</label></td>
+                            <td><label for="firstname">Prénom</label></td>
+                            <td><label for="lastname">Nom</label></td>
                         </tr>
                         <tr>
-                            <td><input type="text" name="firstname" placeholder="Votre prénom..." class="form-1" title="Écrivez votre prénom" required /></td>
-                            <td><input type="text" name="lastname" placeholder="Votre nom..." class="form-1" title="Écrivez votre nom" required /></td>
+                            <td><input id="firstname" type="text" name="firstname" placeholder="Votre prénom..." class="form-1" title="Écrivez votre prénom" required /></td>
+                            <td><input id="lastname" type="text" name="lastname" placeholder="Votre nom..." class="form-1" title="Écrivez votre nom" required /></td>
                         </tr>
                         <tr>
-                            <td><label>Nom d'utilisateur</label></td>
-                            <td><label>Réécrire nom d'utilisateur</label></td>
+                            <td><label for="username">Nom d'utilisateur</label></td>
+                            <td><label for="username2">Réécrire nom d'utilisateur</label></td>
                         </tr>
                         <tr>
-                            <td><input type="text" name="username" placeholder="surnom..." class="form-1" title="Écrivez votre surnom" required /></td>
-                            <td><input type="text" name="username2" placeholder="surnom..." class="form-1" title="Réécrire votre surnom" required /></td>
+                            <td><input id="username" type="text" name="username" placeholder="surnom..." class="form-1" title="Écrivez votre surnom" required /></td>
+                            <td><input id="username2" type="text" name="username2" placeholder="surnom..." class="form-1" title="Réécrire votre surnom" required /></td>
                         </tr>
                         
                     </table>
@@ -92,15 +92,15 @@
                         <td><label>Genre</label></td>
                         <td>
                             <label>Homme</label><input type="radio" name="gender" value="male" required />
-                            <label>Femme</label><input type="radio" name="gender" value="female" required />
+                            <label>Femme</label><input type="radio" name="gender" value="Femme" required />
                             <label>X</label><input type="radio" name="gender" value="nongender" required />
                             <label>Garçon</label><input type="radio" name="gender" value="boy" required />
                             <label>Fille</label><input type="radio" name="gender" value="girl" required />
                         </td>
                     </tr>
                     <tr>
-                        <td><label>Numéro de téléphone</label></td>
-                        <td><input type="text" name="number" placeholder="450....." maxlength="13" class="form-1" title="Entrez votre numéro de téléphone" required /></td>
+                        <td><label for="number">Numéro de téléphone</label></td>
+                        <td><input id="number" type="text" name="number" placeholder="450....." maxlength="13" class="form-1" title="Entrez votre numéro de téléphone" required /></td>
                     </tr>
                 </table>
             </fieldset>
@@ -111,23 +111,23 @@
                 <legend>Informations de connexion</legend>
                 <table cellpadding="5" cellspacing="5">
                     <tr>
-                        <td><label>Votre adresse courriel</label></td>
-                        <td><label>Confirmez votre adresse courriel</label></td>
+                        <td><label for="email">Votre adresse courriel</label></td>
+                        <td><label for="email2">Confirmez votre adresse courriel</label></td>
                     </tr>
                     <tr>
-                        <td><input type="text" name="email" placeholder="jaifaim@jaifaim.com" class="form-1" title="Écrivez votre adresse courriel" required /></td>
-                        <td><input type="text" name="email2" class="form-1" title="Confirmez votre adresse courriel" required /></td>
+                        <td><input id="email" type="text" name="email" placeholder="jaifaim@jaifaim.com" class="form-1" title="Écrivez votre adresse courriel" required /></td>
+                        <td><input id="email2" type="text" name="email2" class="form-1" title="Confirmez votre adresse courriel" required /></td>
                     </tr>
                     <tr>
                         <td colspan="2">N-B: personne ne verra votre adresse courriel.</td>
                     </tr>
                     <tr>
-                        <td><label>Mot de passe</label></td>
-                        <td><label>Répétez le mot de passe</label></td>
+                        <td><label for="password">Mot de passe</label></td>
+                        <td><label for="password2">Répétez le mot de passe</label></td>
                     </tr>
                     <tr>
-                        <td><input type="password" name="password" placeholder="**********" class="form-1" title="Écrivez votre mot de passe" required /></td>
-                        <td><input type="password" name="password2" class="form-1" title="Confirmez votre mot de passe" required /></td>
+                        <td><input id="password" type="password" name="password" placeholder="**********" class="form-1" title="Écrivez votre mot de passe" required /></td>
+                        <td><input id="password2" type="password" name="password2" class="form-1" title="Confirmez votre mot de passe" required /></td>
                     </tr>
                     <tr>
                         <td colspan="2">N-B: personne ne peut voir votre mot de passe.</td>
