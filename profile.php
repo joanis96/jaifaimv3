@@ -22,7 +22,6 @@
                 <li><a href="timeline.php" title="<?php echo 'page de ' . $username ?>"><label><?php echo $username ?></label></a></li>
                 <li><a href="home.php" title="Home"><label>Page principale</label></a></li>
                 <li><a href="profile.php" title="Profile"><label class="active">Profil</label></a></li>
-                <li><a href="photos.php" title="Settings"><label>Photos</label></a></li>
                 <li><a href="logout.php" title="Se déconnecter"><button class="btn-sign-in" value="Log out">Quitter</button></a></li>
             </ul>
         </div>
@@ -38,8 +37,7 @@
             </div>
 
             <div class="user-details">
-                <h3><?php echo $firstname ?>&nbsp;<?php echo $lastname ?></h3>
-                <h2><?php echo $username ?></h2>
+                <h2><?php echo $firstname ?>&nbsp;<?php echo $lastname ?></h2>
             </div>
         </div>
 

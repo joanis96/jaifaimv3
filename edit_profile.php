@@ -55,7 +55,6 @@ if (isset($_POST['save'])) {
                 <li><a href="#" title="<?php echo $username ?>"><label><?php echo $username ?></label></a></li>
                 <li><a href="home.php" title="Home"><label>Page principale</label></a></li>
                 <li><a href="profile.php" title="Profile"><label class="active">Profil</label></a></li>
-                <li><a href="photos.php" title="Settings"><label>Photos</label></a></li>
                 <li><a href="logout.php" title="Se déconnecter"><button class="btn-sign-in" value="Log out">Quitter</button></a></li>
             </ul>
         </div>
@@ -70,19 +69,18 @@ if (isset($_POST['save'])) {
             </div>
 
             <div class="user-details">
-                <h3><?php echo $firstname ?>&nbsp;<?php echo $lastname ?></h3>
-                <h2><?php echo $username ?></h2>
+                <h2><?php echo $firstname ?>&nbsp;<?php echo $lastname ?></h2>
             </div>
         </div>
 
 
 
         <div id="right-nav">
-            <h1>Changer nom...</h1>
+            <h1>Changer votre nom...</h1>
 
             <div id="left-nav1">
 
-                <fieldset class="-------------">
+                <fieldset>
                     <table cellpadding="5" cellspacing="5">
 
                         <form method="post">
@@ -103,7 +101,7 @@ if (isset($_POST['save'])) {
                     </table>
                 </fieldset>
                 <br />
-                <fieldset class="---------------">
+                <fieldset>
                     <legend>
                         <h1>Infos croustillantes</h1>
                     </legend>

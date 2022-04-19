@@ -1,7 +1,5 @@
 body {
-    background-image: url('../image/b.png');
-    background-attachment: fixed;
-    background-size: 100% 100%;
+    background-color: #dfe0e4;
     }
     
     
@@ -41,7 +39,8 @@ body {
     
     .head-view label:hover {
     padding: 5px 0px 5px 0px;
-    border-bottom: 4px solid #fff;
+    border-bottom: 4px dashed #fff;
+    cursor: pointer;
     }
     
     .active {
@@ -60,8 +59,8 @@ body {
     font-size:19px;
     width:100px;
     line-height:30px;
-    background-color:#ffffff;
-    border:2px solid #0bacff;
+    background-color:#c3c3c3;
+    border:2px solid #000000;
     border-radius:100px;
     -webkit-border-radius:100px;
     -moz-border-radius:100px;
@@ -70,8 +69,8 @@ body {
     
     .btn-sign-in:hover {
     color:#ffffff;
-    background-color:#0bacff;
-    border:2px solid #0bacff;
+    background-color:#000000;
+    border:2px solid #000000;
     }
     
     .btn-sign-up {
@@ -111,7 +110,7 @@ body {
     #left-nav1 {
     width: 348px;
     border: 1px solid #dfe0e4;
-    background-color: #73cfff;
+    background-color: #0a0e11ad;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px;
@@ -141,7 +140,8 @@ body {
     }
     
     #left-nav1 b {
-    color:#000000;
+    color:#ffffff;
+    text-shadow:2px 2px 2px #000000;
     font-size:18px;
     }
     
@@ -217,14 +217,15 @@ body {
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
-    border:3px solid #CCCCCC;
+    border:2px solid #2b2b2b;
     margin-top:170px;
     }
     
     .post-text {
-    width:99%;
+    width:90%;
     height:150px;
-    border:3px solid #73cfff;
+    margin-left: 20px;
+    border:3px solid #cfcfd0;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
@@ -232,33 +233,14 @@ body {
     text-indent:5px;
     }
     
-    .btn-add-photo {
-    color:#ffffff;
-    font-size:19px;
-    width:200px;
-    line-height:30px;
-    background-color:#0bacff;
-    border:2px solid #0bacff;
-    border-radius:100px;
-    -webkit-border-radius:100px;
-    -moz-border-radius:100px;
-    -o-border-radius:100px;
-    }
-    
-    .btn-add-photo:hover {
-    color:#ffffff;
-    background-color:#0488cd;
-    border:2px solid #0488cd;
-    }
-    
     .btn-share {
-    color:#ffffff;
+    color:#000000;
     font-size:19px;
     float:right;
     width:100px;
     line-height:30px;
-    background-color:#0bacff;
-    border:2px solid #0bacff;
+    background-color:#c3c3c3;
+    border:2px solid #000000;
     border-radius:100px;
     -webkit-border-radius:100px;
     -moz-border-radius:100px;
@@ -267,8 +249,8 @@ body {
     
     .btn-share:hover {
     color:#ffffff;
-    background-color:#0488cd;
-    border:2px solid #0488cd;
+    background-color:#000;
+    border:2px solid #000;
     }
     
     #right-nav1 {
@@ -278,7 +260,7 @@ body {
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
-    border:3px solid #CCCCCC;
+    border:2px solid #000;
     height: auto;
     float: right;
     padding: 7px;
@@ -291,7 +273,7 @@ body {
     .profile-pics img {
     width:70px;
     height:70px;
-    border:2px solid #CCCCCC;
+    border:2px solid #000;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
@@ -299,7 +281,6 @@ body {
     
     .profile-pics b {
     color:#000000;
-    text-shadow:1px 1px 1px #73cfff;
     margin-left:16px;
     font-size:23px;
     }
@@ -312,7 +293,7 @@ body {
     
     .post-content {
     width:100%;
-    border:2px solid #CCCCCC;
+    border:2px solid #000;
     }
     
     .post-content p {
@@ -321,7 +302,7 @@ body {
     }
     
     .post-content img {
-    border:3px solid #CCCCCC;
+    border:1px solid #000;
     width:50%;
     height:50%;
     }
@@ -337,8 +318,9 @@ body {
     font-size:10px;
     float:right;
     width:30px;
-    background-color:#0bacff;
-    border:1px solid #0bacff;
+    height: 20px;
+    background-color:rgb(235, 28, 28);
+    border:1px solid #000;
     border-radius:5px;
     -webkit-border-radius:5px;
     -moz-border-radius:5px;
@@ -352,7 +334,7 @@ body {
     width:30px;
     font-weight:bold;
     background-color:#ffffff;
-    border:1px solid #0bacff;
+    border:1px solid #000;
     border-radius:5px;
     -webkit-border-radius:5px;
     -moz-border-radius:5px;
@@ -362,7 +344,7 @@ body {
     .comment-area {
     width:70%;
     background-color:#ffffff;
-    border:1px solid #0bacff;
+    border:1px solid #000;
     padding:3px;
     margin-top:10px;
     border-radius:5px;

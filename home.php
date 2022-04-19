@@ -77,7 +77,6 @@ function time_stamp($session_time)
                 <li><a href="timeline.php" title="<?php echo 'page de ' . $username ?>"><label><?php echo $username ?></label></a></li>
                 <li><a href="home.php" title="Home"><label class="active">Page principale</label></a></li>
                 <li><a href="profile.php" title="Profil"><label>Profil</label></a></li>
-                <li><a href="photos.php" title="Photos"><label>Photos</label></a></li>
                 <li><a href="logout.php" title="Se déconnecter"><button class="btn-sign-in" value="Log out">Quitter</button></a></li>
             </ul>
         </div>
@@ -93,8 +92,7 @@ function time_stamp($session_time)
             </div>
 
             <div class="user-details">
-                <h3><?php echo $firstname ?>&nbsp;<?php echo $lastname ?></h3>
-                <h2><?php echo $username ?></h2>
+                <h2><?php echo $firstname ?>&nbsp;<?php echo $lastname ?></h2>
             </div>
         </div>
 
@@ -122,27 +120,27 @@ function time_stamp($session_time)
                 <h2>Infos personnels</h2>
                 <table>
                     <tr>
-                        <td><label>Nom d'utilisateur</label></td>
+                        <td><label>Nom d'utilisateur :</label></td>
                         <td width="20"></td>
                         <td><b><?php echo $row['username']; ?></b></td>
                     </tr>
                     <tr>
-                        <td><label>Date d'anniversaire</label></td>
+                        <td><label>Date d'anniversaire:</label></td>
                         <td width="20"></td>
                         <td><b><?php echo $row['birthday']; ?></b></td>
                     </tr>
                     <tr>
-                        <td><label>Genre</label></td>
+                        <td><label>Genre :</label></td>
                         <td width="20"></td>
                         <td><b><?php echo $row['gender']; ?></b></td>
                     </tr>
                     <tr>
-                        <td><label>Me joindre</label></td>
+                        <td><label>Me joindre :</label></td>
                         <td width="20"></td>
                         <td><b><?php echo $row['number']; ?></b></td>
                     </tr>
                     <tr>
-                        <td><label>Courriel</label></td>
+                        <td><label>Courriel :</label></td>
                         <td width="20"></td>
                         <td><b><?php echo $row['email']; ?></b></td>
                     </tr>
@@ -199,7 +197,7 @@ function time_stamp($session_time)
                 ?>
                     <div class="comment-display" <?php echo $comment_id ?>>
                         <div class="delete-post">
-                            <a href="delete_comment.php<?php echo '?id=' . $comment_id; ?>" title="Delete your comment"><button class="btn-delete">X</button></a>
+                            <a href="delete_comment.php<?php echo '?id=' . $comment_id; ?>" title="Supprimer le commentaire"><button class="btn-delete">X</button></a>
                         </div>
                         <div class="user-comment-name"><img src="<?php echo $row['image']; ?>">&nbsp;&nbsp;&nbsp;<?php echo $row['name']; ?><b class="time-comment"><?php echo $time = time_stamp($time); ?></b></div>
                         <div class="comment"><?php echo $row['content_comment']; ?></div>
@@ -223,11 +221,11 @@ function time_stamp($session_time)
                             <img src="<?php echo $row['profile_picture']; ?>" width="50" height="50">
                         <?php } ?>
 
-                        <input type="text" name="content_comment" placeholder="Write a comment..." class="comment-text">
+                        <input type="text" name="content_comment" placeholder="Commenter..." class="comment-text">
                         <input type="hidden" name="post_id" value="<?php echo $post_id ?>">
                         <input type="hidden" name="user_id" value="<?php echo $firstname . ' ' . $lastname  ?>">
                         <input type="hidden" name="image" value="<?php echo $profile_picture  ?>">
-                        <input type="submit" name="post_comment" value="Enter" class="btn-comment">
+                        <input type="submit" name="post_comment" value="Publier" class="btn-comment">
 
                     </div>
                 </form>
