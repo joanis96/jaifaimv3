@@ -32,9 +32,12 @@ if (isset($_POST['save'])) {
 ?>
 
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 
 <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="cache-control" content="no-store,max-age=0" />
     <title>Jaifaim, mettre à jour le profil</title>
     <link rel="stylesheet" type="text/css" href="css/edit_profile.css">
 </head>

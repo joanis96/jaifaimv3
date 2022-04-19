@@ -1,7 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 
 	<head>
+		<meta charset="utf-8" />
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<meta http-equiv="cache-control" content="no-store,max-age=0" />
 		<title>Jaifaim, connexion ou inscription!</title>
 		<link rel="stylesheet" type="text/css" href="css/index.css">
 	</head>
@@ -24,7 +27,7 @@
 
 	<div id="container">
 		<div class="image-display">
-				<img src="image/world.png" class="img-style" />
+				<img src="images/frankie-lopez-GH4wbLUCYMg-unsplash.jpg" class="img-style" alt="Photo de nachos de Frankie Lopez sur le site Unsplash"/>
 		</div>
 	</div>
 

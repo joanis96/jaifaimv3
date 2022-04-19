@@ -3,7 +3,7 @@ include('includes/database.php');
 
 if (isset($_POST['submit'])) {
     $email = $_POST['email'];
-    $password = $_POST['password']; {//probablement ici le password hash
+    $password = $_POST['password']; {//password hash sera nécessaire
         $result = mysqli_query($con, "SELECT * FROM user WHERE email = '$email' and password='$password'");
 
         $row = mysqli_fetch_array($result);

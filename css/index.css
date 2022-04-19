@@ -1,7 +1,5 @@
 body {
-    background-image: url('../image/dark.jpg');
-    background-attachment: fixed;
-    background-size: 100% 100%;
+    background-color: #dfe0e4;
     }
     
     #header {
