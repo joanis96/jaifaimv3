@@ -76,7 +76,7 @@ function time_stamp($session_time)
                 <li></li>
                 <li><a href="timeline.php" title="<?php echo 'page de ' . $username ?>"><label class="active"><?php echo $username ?></label></a></li>
                 <li><a href="home.php" title="Home"><label>Page principale</label></a></li>
-                <li><a href="profile.php" title="Home"><label>Profil</label></a></li>
+                <li><a href="profile.php" title="Profil"><label>Profil</label></a></li>
                 <li><a href="logout.php" title="Se déconnecter"><button class="btn-sign-in" value="Log out">Quitter</button></a></li>
             </ul>
         </div>
